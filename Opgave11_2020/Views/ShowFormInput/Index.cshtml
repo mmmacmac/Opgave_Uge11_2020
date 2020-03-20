@@ -1,0 +1,20 @@
+﻿@model Opgave11_2020.Models.GetFormInput
+@{
+    ViewData["Title"] = "Dette har du indtastet";
+
+    string fornavn = Model.firstName;
+    string efternavn = Model.lastName;
+    string mail = Model.email;
+    int telefon = Model.phone;
+}
+
+    <div class="container">
+        <h1 class="display-1">Her er dit input</h1>
+<text>
+        Fornavn: @fornavn<br />
+        Efternavn: @efternavn<br />
+        Mail: @mail<br />
+        Telefon: @telefon
+</text>
+
+    </div>

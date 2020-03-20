@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Udfyld formularen";
+}
+
+<div class="container">
+    <h1 class="display-1">Udfyld min form</h1>
+    <p>
+        Udfyld nedenstående formular og tryk på send.
+    </p>
+    <form action="/ShowFormInput" id="Input" method="post">
+        <label for="firstName">Fornavn:</label><br>
+        <input type="text" id="firstName" name="firstName" value=""><br><br>
+
+        <label for="lastName">Efternavn:</label><br>
+        <input type="text" id="lastName" name="lastName" value=""><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value=""><br><br>
+
+        <label for="phone">Telefonnummer:</label><br>
+        <input type="tel" id="phone" name="phone" value=""><br><br>
+
+        <input class="btn btn-dark" type="submit" value="Submit" class="submit">
+    </form>
+</div>

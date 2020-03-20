@@ -23,11 +23,6 @@ namespace Opgave11_2020.Controllers
             return View();
         }
 
-        public IActionResult Input()
-        {
-            return View();
-        }
-
         public IActionResult Privacy()
        {
             return View();

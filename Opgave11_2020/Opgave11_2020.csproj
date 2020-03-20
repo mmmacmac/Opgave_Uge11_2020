@@ -6,4 +6,8 @@
 
 
 
+  <ItemGroup>
+    <Folder Include="Views\GetFormInput\" />
+    <Folder Include="Views\ShowFormInput\" />
+  </ItemGroup>
 </Project>
