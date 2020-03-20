@@ -50,7 +50,7 @@ namespace Opgave11_2020
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=GetFormInput}/{action=Index}/{id?}");
             });
         }
     }
